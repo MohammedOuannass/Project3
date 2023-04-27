@@ -1,4 +1,3 @@
-<script>
 //Custom map marker
 var mapIframe = document.querySelector("#map-container iframe");
 
@@ -54,4 +53,3 @@ mapIframe.addEventListener("load", function() {
     }
   });
 });
-</script>
