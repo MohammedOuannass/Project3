@@ -11,10 +11,10 @@ function initMap() {
   });
   
   var contentString = '<div id="content">' +
-    '<h1 id="firstHeading" class="firstHeading">Willis Tower</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Sears Tower</h1>' +
     '<div id="bodyContent">' +
     '<img src="media/towermarker.jpg" width="200px">' +
-    '<p>The Willis Tower is a 110-story, 1,450-foot skyscraper in Chicago, Illinois.</p>' +
+    '<p>The Sears Tower is a 110-story, 1,450-foot skyscraper in Chicago, Illinois.</p>' +
     '</div>' +
     '</div>';
   
