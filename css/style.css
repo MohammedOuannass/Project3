@@ -1,401 +1,407 @@
 /*All pages css*/
 body {
-	background-color: #FCEADE;
-	color: #3B3B3B;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
+  background-color: #FCEADE;
+  color: #3B3B3B;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 header {
-	background-color: #4C4C4C;
-	color: #FCEADE;
-	padding: 20px;
+  background-color: #4C4C4C;
+  color: #FCEADE;
+  padding: 20px;
 }
 
 nav a {
-	color: #FCEADE;
-	text-decoration: none;
+  color: #FCEADE;
+  text-decoration: none;
 }
 
 a:hover {
-	color: #F2B885;
+  color: #F2B885;
 }
 
 .button {
-	display: inline-block;
-	text-align: center;
-	width: 100px;
-	height: 50px;
-	border: 2px solid #F2B885;
-	background-color: #FCEADE;
-	color: #3B3B3B;
-	border-radius: 4px;
-	margin: 0 auto;
-	line-height: 50px;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border: 2px solid #F2B885;
+  background-color: #FCEADE;
+  color: #3B3B3B;
+  border-radius: 4px;
+  margin: 0 auto;
+  line-height: 50px;
 }
 
 .button:hover {
-	background-color: #F2B885;
-	color: #FCEADE;
+  background-color: #F2B885;
+  color: #FCEADE;
 }
 
 #navbar-container {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar-container ul {
-	display: flex;
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #navbar-container li {
-	margin: 0 10px;
+  margin: 0 10px;
 }
 
 #navbar-container a {
-	display: block;
-	padding: 10px;
+  display: block;
+  padding: 10px;
 }
 
 /*Porsche page*/
 #all-about-porsche h2 {
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 10px;
-	text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 #ferdinand-porsche {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #ferdinand-porsche h2 {
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .image-list-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .image-container {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .image-container img {
-	width: 300px;
-	height: auto;
+  width: 300px;
+  height: auto;
 }
 
 .list-container ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	font-size: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
 }
 
 #porsche-911-gt3rs {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #porsche-911-gt3rs h2 {
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .porsche-911-gt3rs-list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	font-size: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
 }
 
 .image-list-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	margin: 50px auto;
-	max-width: 800px;
-	padding: 20px;
-	border: 2px solid #ccc;
-	box-shadow: 0px 0px 10px #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  box-shadow: 0px 0px 10px #ccc;
 }
 
 .image-container img {
-	max-width: 400px;
-	margin: 0 auto;
-	display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
 }
 
 .list-container {
-	flex: 1;
-	margin-left: 20px;
+  flex: 1;
+  margin-left: 20px;
 }
 
 .list-container ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .list-container li {
-	margin-bottom: 10px;
-	font-size: 18px;
-	line-height: 1.5;
-	color: #555;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
 }
 
 .all-about-box {
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	background-color: #f9f9f9;
-	padding: 20px;
-	margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 
 /*Index Resume page*/
 .resume-box {
-	background-color: #f1f1f1;
-	padding: 20px;
-	border-radius: 10px;
-	margin-bottom: 20px;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .ex-section {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 #section-header {
-	font-size: 28px;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 30px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: #004b8d;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 .programming-language {
-	border: 2px solid #004b8d;
-	padding: 20px;
-	margin-bottom: 20px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #004b8d;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-box {
-	border: 1px solid #ccc;
-	padding: 20px;
-	margin-bottom: 20px;
-	background-color: #f9f9f9;
-	border-radius: 10px;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #contact-section {
-	background-color: #f5f5f5;
-	padding: 50px;
-	margin-bottom: 30px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #contact-section h1 {
-	font-size: 36px;
-	text-align: center;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: #004b8d;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 #contact-section h3 {
-	font-size: 24px;
-	margin-bottom: 10px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: #004b8d;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 #contact-section p {
-	font-size: 18px;
-	text-align: center;
+  font-size: 18px;
+  text-align: center;
 }
 
 #education-section {
-	background-color: #f5f5f5;
-	padding: 50px;
-	margin-bottom: 30px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #education-section h2 {
-	font-size: 36px;
-	text-align: center;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: #004b8d;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 #education-section p {
-	font-size: 18px;
-	margin-bottom: 10px;
-	text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 #education-section a {
-	color: #004b8d;
+  color: #004b8d;
 }
 
 #skills-section {
-	background-color: #f5f5f5;
-	padding: 50px;
-	margin-bottom: 30px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #skills-section h2 {
-	font-size: 36px;
-	text-align: center;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: #004b8d;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #004b8d;
 }
 
 #skills-section ul {
-	font-size: 18px;
-	list-style: none;
-	margin: 0 auto;
-	max-width: 800px;
-	text-align: center;
+  font-size: 18px;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
 }
 
 #skills-section li {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #skills-section li:before {
-	content: "\2022";
-	color: #004b8d;
-	font-weight: bold;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+  content: "\2022";
+  color: #004b8d;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 
 /*Waffles page*/
 .waffle-section {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	background-color: #f5f5f5;
-	border: 0.05em solid #d9d9d9;
-	border-radius: 1em;
-	padding: 2vw;
-	overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f5f5f5;
+  border: 0.05em solid #d9d9d9;
+  border-radius: 1em;
+  padding: 2vw;
+  overflow: hidden;
 }
 
 .waffle-section+.waffle-section {
-	margin-top: 3vh;
+  margin-top: 3vh;
 }
 
 @media screen and (min-width: 48em) {
-	.waffle-section {
-		max-width: 60vw;
-		margin: 0 auto;
-	}
+  .waffle-section {
+    max-width: 60vw;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
-	.waffle-section {
-		padding: 5vw;
-	}
-	.waffle-section img {
-		margin-bottom: 2vh;
-	}
-	.waffle-section p {
-		max-width: 80vw;
-		margin-left: 2vw;
-		margin-right: 2vw;
-	}
-	.diff-waffles {
-		padding: 5vw;
-		margin-bottom: 4vh;
-	}
-	h1 {
-		font-size: 2rem;
-	}
-	#song {
-		padding: 8vw;
-	}
-	iframe {
-		width: 90%;
-	}
+  .waffle-section {
+    padding: 5vw;
+  }
+
+  .waffle-section img {
+    margin-bottom: 2vh;
+  }
+
+  .waffle-section p {
+    max-width: 80vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .diff-waffles {
+    padding: 5vw;
+    margin-bottom: 4vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #song {
+    padding: 8vw;
+  }
+
+  iframe {
+    width: 90%;
+  }
 }
 
 .waffle-section img {
-	max-width: 100%;
-	height: auto;
-	margin-bottom: 1vh;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1vh;
 }
 
 .waffle-section p {
-	max-width: 50vw;
-	margin-left: 1vw;
-	margin-right: 1vw;
+  max-width: 50vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .diff-waffles {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 20vh;
-	border: 0.05em solid #ccc;
-	padding: 2vw;
-	margin-bottom: 2vh;
-	background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  border: 0.05em solid #ccc;
+  padding: 2vw;
+  margin-bottom: 2vh;
+  background-color: #f9f9f9;
 }
 
 h1 {
-	text-align: center;
+  text-align: center;
 }
 
 #song {
-	background-image: url(media/song-background.jpg);
-	background-size: cover;
-	background-position: center;
-	color: black;
-	padding: 5vw;
-	text-align: center;
+  background-image: url(media/song-background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 5vw;
+  text-align: center;
 }
 
 iframe {
-	display: block;
-	margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Google Maps*/
