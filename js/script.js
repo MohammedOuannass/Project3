@@ -4,4 +4,25 @@ function initMap() {
     zoom: 13,
     center: location
   });
+  
+  var marker = new google.maps.Marker({
+    position: location,
+    map: map,
+  });
+  
+  var contentString = '<div id="content">' +
+    '<h1 id="firstHeading" class="firstHeading">Willis Tower</h1>' +
+    '<div id="bodyContent">' +
+    '<img src="media/towermarker.jpg" width="200px">' +
+    '<p>The Willis Tower is a 110-story, 1,450-foot skyscraper in Chicago, Illinois.</p>' +
+    '</div>' +
+    '</div>';
+  
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
 }
