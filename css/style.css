@@ -397,3 +397,21 @@ iframe {
 	display: block;
 	margin: 0 auto;
 }
+
+/*Google Maps*/
+.map-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 800px;
+  height: 540px;
+  margin: 0 auto;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+
